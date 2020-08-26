@@ -9,6 +9,10 @@ html {
   background-color: black;
 }
 
+.app__top {
+  margin-bottom: -70px;
+}
+
 .app__top > h1 {
   text-align: center;
   color: white;
@@ -28,14 +32,15 @@ html {
   max-height: 1200px;
   scroll-snap-type: y mandatory;
   overflow: scroll;
-
 }
 
-.app__videos::-webkit-scrollbar{
+/* Hide scrollbar for Cherome, Safari and Opera */
+.app__videos::-webkit-scrollbar {
   display: none;
 }
 
+/* Hide scrollbar for IE, Edge and Firefox */
 .app__videos {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

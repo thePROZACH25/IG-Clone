@@ -1,4 +1,5 @@
 import React from "react";
+import VideoCard from "../src/components/VideoCard";
 
 import "./App.css";
 
@@ -12,15 +13,19 @@ function App() {
           alt=""
         />
         <h1>Reels</h1>
-        {/* Reels text */}
       </div>
 
       <div className="app__videos">
         {/* Container of app__videos */}
-        {/* <Video /> */}
-        {/* <Video /> */}
-        {/* <Video /> */}
-        {/* <Video /> */}
+        <VideoCard 
+        channel={channel}
+        avatarSrc={avatarSrc}
+        song={song}
+        url={url}
+        likes={likes}
+        shares={shares}
+        />
+        
       </div>
     </div>
   );
