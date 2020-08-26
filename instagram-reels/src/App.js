@@ -18,12 +18,12 @@ function App() {
       <div className="app__videos">
         {/* Container of app__videos */}
         <VideoCard 
-        channel={channel}
-        avatarSrc={avatarSrc}
-        song={song}
-        url={url}
-        likes={likes}
-        shares={shares}
+        // channel={channel}
+        // avatarSrc={avatarSrc}
+        // song={song}
+        // url={url}
+        // likes={likes}
+        // shares={shares}
         />
         
       </div>
